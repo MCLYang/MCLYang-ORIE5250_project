@@ -12,7 +12,7 @@ from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
 import pdb
 
-NUM_CLUSTERS = 2
+NUM_CLUSTERS = 5
 DATA_DIR = "data.csv"
 
 def normalization(df,names):
