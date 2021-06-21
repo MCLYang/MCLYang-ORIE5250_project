@@ -176,6 +176,9 @@ def get_model(data_np,price,M,num_groups = 2):
     V.append(np.exp(data_np@beta[k,1:]+beta[k,0]))
 
   V = np.array(V).transpose()
+  V[V>1e7] = 1000
+  V[V<-1e7] = -1000
+
 
   X = m2.addVars(num_products, vtype=GRB.BINARY, name='X')
   Y = m2.addVars(cartesian_prod, vtype=GRB.CONTINUOUS, name='Y')
