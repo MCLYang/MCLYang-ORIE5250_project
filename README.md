@@ -8,6 +8,9 @@ https://colab.research.google.com/drive/1sSFy5spf6zPsYpEEQMNFNSwALKI15uTy?authus
 ```
 python assortment.py --NUM_CLUSTERS=3
 ```
+### Results:
+
+```
 (assortment.py:720): Gdk-CRITICAL **: 22:16:27.786: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
 Using license file /home/malcolm/gurobi.lic
 Academic license - for non-commercial use only
@@ -348,3 +351,4 @@ Name: 2, dtype: float64
 the displayed canidates are: {0}
 Revenue: 65.38323604387477
 Revenue[Mixture canidates]: 65.38323604387477
+```
