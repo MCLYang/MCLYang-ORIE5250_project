@@ -94,14 +94,6 @@ for c in df_normalized_list:
   temp = set(c["srch_id"])
   id_sets.append(temp)
 
-
-# df_normalized_list = []
-# stat_dict_list = []
-# for i in range(NUM_CLUSTERS):
-#   df_normalized_temp,stat_dict_temp = normalization_4(clusters[i],names)
-#   df_normalized_list.append(df_normalized_temp)
-#   stat_dict_list.append(stat_dict_temp) 
-
 thetas = []
 sum_value = 0
 for i in labels_dict: 
